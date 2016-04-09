@@ -7,8 +7,8 @@
     <ProjectGuid>{A7E98D78-48D3-447B-ABAB-E3164B96F36F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.Lexica.Greek.Sources</RootNamespace>
-    <AssemblyName>Gramma.Lexica.Greek.Sources</AssemblyName>
+    <RootNamespace>Grammophone.Lexica.Greek.Sources</RootNamespace>
+    <AssemblyName>Grammophone.Lexica.Greek.Sources</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,21 +44,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gramma.BetaImport\Gramma.BetaImport.csproj">
+    <ProjectReference Include="..\Grammophone.BetaImport\Grammophone.BetaImport.csproj">
       <Project>{739c342e-5fec-45b5-b5b6-a73faaed5f74}</Project>
-      <Name>Gramma.BetaImport</Name>
+      <Name>Grammophone.BetaImport</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.LanguageModel.Greek.TrainingSources\Gramma.LanguageModel.Greek.TrainingSources.csproj">
+    <ProjectReference Include="..\Grammophone.LanguageModel.Greek.TrainingSources\Grammophone.LanguageModel.Greek.TrainingSources.csproj">
       <Project>{b6d89b1c-8e28-494a-9cee-f7f8ba4cb1eb}</Project>
-      <Name>Gramma.LanguageModel.Greek.TrainingSources</Name>
+      <Name>Grammophone.LanguageModel.Greek.TrainingSources</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.LanguageModel\Gramma.LanguageModel.csproj">
+    <ProjectReference Include="..\Grammophone.LanguageModel\Grammophone.LanguageModel.csproj">
       <Project>{5461b4b2-0832-42d5-ae04-6b2a7d4bf4dc}</Project>
-      <Name>Gramma.LanguageModel</Name>
+      <Name>Grammophone.LanguageModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.Lexica\Gramma.Lexica.csproj">
+    <ProjectReference Include="..\Grammophone.Lexica\Grammophone.Lexica.csproj">
       <Project>{b69c71df-06ac-420f-9efd-62058e79c1dc}</Project>
-      <Name>Gramma.Lexica</Name>
+      <Name>Grammophone.Lexica</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

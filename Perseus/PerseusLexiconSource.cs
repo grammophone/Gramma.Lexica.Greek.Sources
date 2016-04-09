@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using Gramma.LanguageModel.Greek.TrainingSources.Perseus;
-using Gramma.LanguageModel.TrainingSources;
-using Gramma.Lexica.LexiconModel;
+using Grammophone.LanguageModel.Greek.TrainingSources.Perseus;
+using Grammophone.LanguageModel.TrainingSources;
+using Grammophone.Lexica.LexiconModel;
 
-namespace Gramma.Lexica.Greek.Sources.Perseus
+namespace Grammophone.Lexica.Greek.Sources.Perseus
 {
 	/// <summary>
 	/// A lexicon source from Perseus XML files.
