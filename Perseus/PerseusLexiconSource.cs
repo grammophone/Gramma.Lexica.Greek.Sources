@@ -184,7 +184,7 @@ namespace Grammophone.Lexica.Greek.Sources.Perseus
 
 		protected override void OpenImplementation()
 		{
-			stream = new FileStream(this.SourceFilename, FileMode.Open, FileAccess.Read);
+			stream = DataStreaming.Configuration.StreamingEnvironment.OpenReadStream(this.SourceFilename);
 
 			reader = new XmlTextReader(stream);
 		}

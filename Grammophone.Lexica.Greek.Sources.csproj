@@ -48,6 +48,10 @@
       <Project>{739c342e-5fec-45b5-b5b6-a73faaed5f74}</Project>
       <Name>Grammophone.BetaImport</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Grammophone.DataStreaming\Grammophone.DataStreaming.csproj">
+      <Project>{9841e0b6-915b-4ec6-b2ec-43a83e112c91}</Project>
+      <Name>Grammophone.DataStreaming</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Grammophone.LanguageModel.Greek.TrainingSources\Grammophone.LanguageModel.Greek.TrainingSources.csproj">
       <Project>{b6d89b1c-8e28-494a-9cee-f7f8ba4cb1eb}</Project>
       <Name>Grammophone.LanguageModel.Greek.TrainingSources</Name>
