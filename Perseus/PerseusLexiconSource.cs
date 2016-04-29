@@ -165,7 +165,17 @@ namespace Grammophone.Lexica.Greek.Sources.Perseus
 
 								case "note":
 									line = ReadLine();
-									notes.Add(line.TextBuilder.ToString());
+
+									string note = line.TextBuilder.ToString();
+
+									if (note.Length > 0)
+									{
+										notes.Add(line.TextBuilder.ToString());
+									}
+									break;
+
+								case "gramGrp": // Skip those elements, because they seem to follow a different, unknown schema.
+									reader.Skip();
 									break;
 							}
 
