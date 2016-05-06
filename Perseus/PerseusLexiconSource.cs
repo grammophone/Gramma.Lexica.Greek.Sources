@@ -121,7 +121,7 @@ namespace Grammophone.Lexica.Greek.Sources.Perseus
 
 				string key = betaConverter.Convert(betaKey.NormalizeBeta());
 
-				string form = key.StripNumerics();
+				string form = key.StripNumerics().NormalizeGreekWord();
 
 				Etymology etymology = null;
 
